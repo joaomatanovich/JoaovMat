@@ -1,0 +1,508 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body.prof {
+	background-color: #eee;
+}
+
+
+/* area do menu */
+
+.menu {
+	margin-top: -3.8px;
+	width: 100%;
+	height: 50px;
+	background-color: #434343;
+	font-family: futura bk bt, trebuchet ms, sans-serif; 
+
+
+}
+
+.menu ul{
+	list-style: none;
+	position: relative;
+	margin-left: 25%;
+}
+
+
+.menu ul li {
+	width: 150px;
+	float: left;
+}
+
+.menu a {
+	padding: 10%;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #434343;
+	color: #fff;
+	font-size: 17px;
+}
+
+.menu ul ul {
+	position: absolute;
+	visibility: hidden;
+	margin-left: auto;
+}
+
+.menu ul li:hover ul {
+	visibility: visible;
+
+
+}
+
+.menu a:hover {
+	background-color: #FC4A00;
+	transition: 0.2s ease-in-out;
+
+}
+
+
+.menu ul ul li {
+	float: none;
+
+}
+
+.menugrande a {
+	width: 200%;
+	margin-left: -85px;
+}
+
+
+
+
+
+
+
+
+/* area do header */
+
+header {
+	width: 100%;
+
+
+}
+
+header img {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/*area do article*/
+
+
+article {
+	width: 45%;
+	margin-left: 10em;
+	margin-top: 1em; 
+	float: left;
+	margin-bottom: 5%;
+}
+
+article img {
+	width: 10%;
+	height: auto;
+	float: right;
+}
+
+article h2 {
+	padding-top: 10%;
+	text-align: center;
+	font-family: exo, trebuchet ms, sans-serif;
+	font-size: 2em;
+	line-height: 100px;
+}
+
+article h3 {
+	text-align: left;
+	font-family: futura bk bt, trebuchet ms, sans-serif;
+	font-size: 1.5em;
+	line-height: 100px;
+}
+
+article p {
+	font-family: sans-serif;
+	font-size: 18px;
+	text-align: justify;
+	line-height: 30px;
+}
+
+article p.link {
+	text-align: right;
+}
+
+article p.link a {
+	color: #fff;
+	text-decoration: none;
+	padding: 15px;
+	background-color: #FC4A00;
+}
+
+article p.link a:hover {
+	color: #000;
+	box-shadow: 0px 2px 5px 2px grey;
+	background-color: #aaa;
+	transition: 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+/*area do aside*/
+
+aside.direita {
+	background-color: #434343;
+	width: 25%;
+	height: 23em;
+	float: left;
+	margin-top: 10em;
+	margin-left: 8em;
+	margin-bottom: 10%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+ h3.titulo {
+	color: #eee;
+	font-family: trebuchet ms, sans-serif;
+	text-align: center;
+	padding: 20px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 10%;
+	border-bottom: 1px solid #fff;
+}
+
+aside.curso {
+	background-color: #434343;
+	width: 30%;
+	height: 25em;
+	float: left;
+	margin-top: 10em;
+	margin-left: 8em;
+	margin-bottom: 2%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}																		
+
+
+
+aside ul {
+	list-style: none;
+	margin-top: 20px;
+
+}
+
+aside ul li {
+	float: left;
+}
+
+aside img {
+	border: 1px solid #fff;
+	display: block;
+    margin: auto;
+    width: 80%;
+}
+
+aside img:hover {
+	opacity: 0.8;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 5, 0.19);
+	transition: 0.2s ease-in-out;
+}
+
+
+
+aside ul li img.cont {
+	width: 18%;
+	height: auto;
+	border: none;
+	float: left;
+	margin: 2%;
+}
+
+aside.curso p {
+	margin-top: 6%;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 18px;
+	text-align: justify;
+	line-height: 30px;
+	color: #fff;
+}
+
+
+
+
+
+
+/*area da section do body*/
+
+
+
+
+section img#banner {
+	height: 50%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+/* area do footer */
+
+footer {
+	clear: both;
+	width: 100%; 
+	height: 60px;
+	margin-top: 10em;
+	border-top: 1px solid #FC4A00;
+	background-color: #aaa;*/
+}
+
+
+footer p {
+	margin-top: 8px;
+	text-align: center;
+	font-family: exo, trebuchet ms, sans-serif;
+	font-size: 15px;
+	padding: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+/* area das imgs*/
+
+.cumprido {
+	width: 60%;
+	height: 100px;
+}
+
+.html {
+	width: 80%;
+	height: 280px;
+}
+
+.textos {
+	margin-left: 10em;
+}
+
+.sobre {
+	float: left;
+	margin: 2% 3% 0 0;
+	width: 30%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+/*pagina dos professores*/
+
+
+section.prof {
+	background-color: #fff;
+	width: 75%;								
+	float: left;
+	margin-top: 5em;
+	margin-left: 8em;
+	margin-bottom: 2em;
+	border-radius: 5px ;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow: hidden;
+
+}
+
+article.prof {
+	
+	width: 90%;
+	margin: 0 1% 1% 4%; 
+	float: left;
+	padding-bottom: 0;
+}
+
+article.prof h2 {
+	margin-top: -10%;
+}
+
+article.prof img {
+	width: 20%;
+	height: auto;
+	float: left;
+	margin: 11% 3% 0 0;
+	box-shadow: 5px 8px 20px #434343;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*area do pop-up teste*/
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 120px auto;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup p {
+	font-family: exo, thaoma, sans-serif;
+	font-size: 20px;
+	color: #ccc;
+	padding: 2%;
+	text-align: center;
+	margin-top: 3%
+}
+
+
+.popup .close {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  transition: all 200ms;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+.popup .close:hover {
+  color: #FC4A00;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    curva
+div.wrapper {
+      background-color:#434343;
+       width:500px;
+       margin-top: 10%
+  }
+
+  div.curve {
+    background-color:white;
+    width:500px;
+    height:150px;
+  }
+
+  div.curve-top{   
+      border-bottom-left-radius:70%;
+      border-bottom-right-radius:70%;
+  }
+
+  div.curve-bottom {  
+      margin-top: 50px;
+      border-top-left-radius:70%;
+      border-top-right-radius:70%;
+  }*/
